@@ -155,3 +155,19 @@ The trained model is saved as:
 
 ```text
 models/best_model.pkl
+
+## 📊 Model Performance
+
+Three machine learning models were trained and compared:
+
+| Model | Test Accuracy |
+|---|---:|
+| Logistic Regression | 83.5% |
+| Random Forest | 93.0% |
+| SVM | 93.2% |
+
+### Best Model
+
+**SVM** achieved the highest test accuracy of approximately **93.2%** and was selected as the best-performing model.
+
+The models were evaluated using training/test accuracy, cross-validation, classification reports, and ROC-AUC.
