@@ -119,6 +119,7 @@ To train the models from scratch, place the original dataset at:
 
 ```text
 data/sensor-data.csv
+```
 
 ## 🧹 Data Preprocessing
 
