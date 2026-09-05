@@ -78,6 +78,22 @@ The trained models were evaluated using test accuracy and other classification m
 **Best Model:** SVM  
 **Best Test Accuracy:** 93.2%
 
+
+## 📊 Model Evaluation
+
+The models were evaluated using:
+
+- Training Accuracy
+- Test Accuracy
+- Cross-Validation Accuracy
+- ROC-AUC
+- Classification Report
+- Confusion Matrix
+
+These metrics were used to compare the models and identify the best-performing classifier for semiconductor yield prediction.
+
+The detailed evaluation results and visualizations are available in the `outputs/` directory.
+
 The model comparison shows that SVM achieved the highest test accuracy among the three evaluated models.
 
 ## 🔮 Future Improvements
