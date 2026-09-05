@@ -247,3 +247,7 @@ The dataset was cleaned by removing highly incomplete features and handling rema
 Three classification models were trained and evaluated: Logistic Regression, Random Forest, and SVM. After comparing their performance, **SVM achieved the highest test accuracy of approximately 93.2%** and was selected as the best-performing model.
 
 The project demonstrates how machine learning can be used to analyze semiconductor sensor data and predict manufacturing Pass/Fail outcomes.
+
+## 📄 License
+
+This project is created for educational and portfolio purposes.
