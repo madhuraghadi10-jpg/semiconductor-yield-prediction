@@ -29,13 +29,7 @@ def load_model():
 
 @st.cache_data
 def load_features():
-
-    df = pd.read_csv
-    (
-        "feature_names = pd.read_csv("data/sample_input.csv").columns.tolist()",
-        nrows=1
-    )
-
+    df = pd.read_csv("data/sample_input.csv")
     return [
         column
         for column in df.columns
