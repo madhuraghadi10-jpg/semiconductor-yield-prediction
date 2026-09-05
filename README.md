@@ -287,6 +287,12 @@ The confusion matrix contained 292 correctly predicted Pass samples, 1 incorrect
 Although the model achieved high overall accuracy, its recall for the Fail class was only 0.05. This indicates that detecting rare semiconductor yield failures remains a challenging area for further improvement.
 
 ---
+## ⚠️ Limitations
+
+- The dataset is highly imbalanced, with significantly fewer Fail samples than Pass samples.
+- Although the final model achieved 93.31% test accuracy, it detected only 1 of 21 Fail samples.
+- The low Fail-class recall indicates that the model requires further improvement for reliable failure detection.
+- Future work should focus on improving minority-class detection using advanced sampling techniques, feature selection, threshold optimization, and additional classification models.
 
 ## 🔎 Feature Importance
 
