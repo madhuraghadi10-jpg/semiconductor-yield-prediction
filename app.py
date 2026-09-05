@@ -30,8 +30,9 @@ def load_model():
 @st.cache_data
 def load_features():
 
-    df = pd.read_csv(
-        "data/cleaned_sensor_data.csv",
+    df = pd.read_csv
+    (
+        "feature_names = pd.read_csv("data/sample_input.csv").columns.tolist()",
         nrows=1
     )
 
