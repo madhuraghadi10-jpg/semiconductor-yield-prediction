@@ -18,6 +18,24 @@ The project also investigates whether all available sensor features are required
 - **Model Deployment:** Streamlit
 - **Model Persistence:** Joblib
 
+## 📂 Project Structure
+
+```text
+semiconductor-yield-prediction/
+├── data/
+│   └── sample_input.csv
+├── models/
+│   └── best_model.pkl
+├── notebooks/
+├── outputs/
+├── src/
+├── screenshots/
+├── app.py
+├── requirements.txt
+├── README.md
+└── .gitignore
+
+```
 ## ✨ Key Features
 
 - Predicts semiconductor manufacturing Pass/Fail outcomes
