@@ -111,7 +111,14 @@ Target encoding:
 
 The original dataset contains 592 columns in total.
 
----
+The project uses semiconductor sensor data containing 591 sensor features and a `Pass/Fail` target.
+
+The full dataset is not included in this repository because of its size. A small `sample_input.csv` file is provided to demonstrate predictions through the Streamlit dashboard.
+
+To train the models from scratch, place the original dataset at:
+
+```text
+data/sensor-data.csv
 
 ## 🧹 Data Preprocessing
 
