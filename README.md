@@ -31,6 +31,22 @@ The project also investigates whether all available sensor features are required
 - Provides an interactive Streamlit prediction dashboard
 - Displays model performance and feature importance
 
+## 🔄 How It Works
+
+1. Load semiconductor sensor data
+2. Explore the dataset and target distribution
+3. Remove highly incomplete features
+4. Handle remaining missing values
+5. Split the data into training and testing sets
+6. Balance the training data using SMOTE
+7. Standardize features where required
+8. Train multiple classification models
+9. Optimize models using Cross-Validation and GridSearchCV
+10. Compare model performance
+11. Select and save the best model
+12. Use the trained model through the Streamlit dashboard
+
+
 
 ## 🖥️ Application Preview
 
