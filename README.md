@@ -94,6 +94,18 @@ These metrics were used to compare the models and identify the best-performing c
 
 The detailed evaluation results and visualizations are available in the `outputs/` directory.
 
+## ⭐ Project Highlights
+
+- Worked with a high-dimensional semiconductor sensor dataset
+- Reduced the feature space by removing highly incomplete attributes
+- Addressed severe class imbalance using SMOTE
+- Compared three machine learning classification models
+- Applied hyperparameter tuning using GridSearchCV
+- Built an end-to-end machine learning pipeline
+- Saved the trained model for future predictions
+- Developed an interactive Streamlit dashboard
+- Added model performance and feature importance visualizations
+
 The model comparison shows that SVM achieved the highest test accuracy among the three evaluated models.
 
 ## 🔮 Future Improvements
