@@ -20,3 +20,5 @@ Thumbs.db
 
 # Raw dataset
 data/sensor-data.csv
+
+data/cleaned_sensor_data.csv
