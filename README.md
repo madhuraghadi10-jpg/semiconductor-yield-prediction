@@ -47,6 +47,21 @@ The project also investigates whether all available sensor features are required
 12. Use the trained model through the Streamlit dashboard
 
 
+## 📈 Project Results
+
+The trained models were evaluated using test accuracy and other classification metrics.
+
+| Model | Test Accuracy |
+|---|---:|
+| Logistic Regression | 83.5% |
+| Random Forest | 93.0% |
+| SVM | 93.2% |
+
+**Best Model:** SVM  
+**Best Test Accuracy:** 93.2%
+
+The model comparison shows that SVM achieved the highest test accuracy among the three evaluated models.
+
 
 ## 🖥️ Application Preview
 
