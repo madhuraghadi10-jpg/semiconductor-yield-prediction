@@ -130,7 +130,7 @@ The model comparison shows that SVM achieved the highest test accuracy among the
 ```bash
 git clone https://github.com/madhuraghadi10-jpg/semiconductor-yield-prediction.git
 cd semiconductor-yield-prediction
-
+```
 ## 🎯 Objective
 
 The main objectives are:
