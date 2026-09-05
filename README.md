@@ -171,3 +171,13 @@ Three machine learning models were trained and compared:
 **SVM** achieved the highest test accuracy of approximately **93.2%** and was selected as the best-performing model.
 
 The models were evaluated using training/test accuracy, cross-validation, classification reports, and ROC-AUC.
+
+## 📝 Conclusion
+
+The project successfully developed a machine learning pipeline for semiconductor manufacturing yield prediction.
+
+The dataset was cleaned by removing highly incomplete features and handling remaining missing values. Exploratory data analysis was performed to understand feature relationships and target distribution.
+
+Three classification models were trained and evaluated: Logistic Regression, Random Forest, and SVM. After comparing their performance, **SVM achieved the highest test accuracy of approximately 93.2%** and was selected as the best-performing model.
+
+The project demonstrates how machine learning can be used to analyze semiconductor sensor data and predict manufacturing Pass/Fail outcomes.
