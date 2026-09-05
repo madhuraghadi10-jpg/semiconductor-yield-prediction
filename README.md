@@ -62,6 +62,15 @@ The trained models were evaluated using test accuracy and other classification m
 
 The model comparison shows that SVM achieved the highest test accuracy among the three evaluated models.
 
+## 🔮 Future Improvements
+
+- Improve model performance using advanced feature selection techniques
+- Experiment with additional machine learning algorithms
+- Apply dimensionality reduction techniques such as PCA
+- Perform more extensive hyperparameter optimization
+- Improve the Streamlit dashboard with additional visualizations
+- Deploy the application to a cloud platform
+
 
 ## 🖥️ Application Preview
 
