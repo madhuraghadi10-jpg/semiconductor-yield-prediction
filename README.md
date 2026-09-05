@@ -119,6 +119,17 @@ The main objectives are:
 - Select and save the best-performing model.
 
 ---
+## 🖥️ How to Use the Dashboard
+
+1. Launch the Streamlit application.
+2. Open the **Yield Prediction** page.
+3. Upload a CSV file containing the required sensor features.
+4. The application validates the input features.
+5. The trained model predicts **PASS** or **FAIL** for each sample.
+6. View prediction probabilities and the prediction summary.
+7. Download the prediction results as a CSV file.
+8. Use **Model Performance** to view model evaluation results.
+9. Use **Feature Importance** to explore the most influential sensor features.
 
 ## 📊 Dataset
 
