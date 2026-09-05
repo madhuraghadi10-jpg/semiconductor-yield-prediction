@@ -7,6 +7,17 @@ This project uses Machine Learning to predict the Pass/Fail yield of a semicondu
 The project also investigates whether all available sensor features are required for building an effective prediction model.
 
 ---
+## 🛠️ Tech Stack
+
+- **Programming Language:** Python
+- **Data Processing:** Pandas, NumPy
+- **Data Visualization:** Matplotlib, Seaborn
+- **Machine Learning:** Scikit-learn
+- **Class Imbalance:** SMOTE
+- **Model Optimization:** GridSearchCV, Cross-Validation
+- **Model Deployment:** Streamlit
+- **Model Persistence:** Joblib
+
 ## 🖥️ Application Preview
 
 ![Semiconductor Yield Prediction Dashboard](screenshots/app_dashboard.png)
