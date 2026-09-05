@@ -18,6 +18,20 @@ The project also investigates whether all available sensor features are required
 - **Model Deployment:** Streamlit
 - **Model Persistence:** Joblib
 
+## ✨ Key Features
+
+- Predicts semiconductor manufacturing Pass/Fail outcomes
+- Handles missing sensor values
+- Removes highly incomplete features
+- Performs exploratory data analysis
+- Handles class imbalance using SMOTE
+- Compares Logistic Regression, Random Forest, and SVM
+- Uses Cross-Validation and GridSearchCV for model optimization
+- Automatically selects the best-performing model
+- Provides an interactive Streamlit prediction dashboard
+- Displays model performance and feature importance
+
+
 ## 🖥️ Application Preview
 
 ![Semiconductor Yield Prediction Dashboard](screenshots/app_dashboard.png)
