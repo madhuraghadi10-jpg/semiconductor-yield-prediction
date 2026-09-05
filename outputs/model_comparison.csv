@@ -1,0 +1,4 @@
+Model,CV Accuracy,Train Accuracy,Test Accuracy,ROC-AUC,Best Parameters
+Logistic Regression,0.8699027888446216,1.0,0.8375796178343949,0.6042580854867544,{'classifier__C': 10}
+Random Forest,0.9329689243027888,1.0,0.9299363057324841,0.8197627173736389,"{'classifier__max_depth': 20, 'classifier__min_samples_split': 2, 'classifier__n_estimators': 200}"
+SVM,0.9321657370517927,0.9992019154030327,0.9331210191082803,0.6535023565740288,"{'classifier__C': 1, 'classifier__gamma': 'scale'}"
