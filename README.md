@@ -73,10 +73,10 @@ The trained models were evaluated using test accuracy and other classification m
 |---|---:|
 | Logistic Regression | 83.5% |
 | Random Forest | 93.0% |
-| SVM | 93.2% |
+| SVM | 93.31% |
 
 **Best Model:** SVM  
-**Best Test Accuracy:** 93.2%
+**Best Test Accuracy:** 93.31%
 
 
 ## 📊 Model Evaluation
@@ -276,6 +276,16 @@ The models were compared using:
 
 The final model was selected based on its performance on unseen test data.
 
+### Final Evaluation
+
+- **Training Accuracy:** 99.92%
+- **Testing Accuracy:** 93.31%
+- **ROC-AUC:** 0.6535
+
+The confusion matrix contained 292 correctly predicted Pass samples, 1 incorrectly predicted Pass sample, 20 Fail samples predicted as Pass, and 1 correctly predicted Fail sample.
+
+Although the model achieved high overall accuracy, its recall for the Fail class was only 0.05. This indicates that detecting rare semiconductor yield failures remains a challenging area for further improvement.
+
 ---
 
 ## 🔎 Feature Importance
@@ -304,11 +314,11 @@ Three machine learning models were trained and compared:
 |---|---:|
 | Logistic Regression | 83.5% |
 | Random Forest | 93.0% |
-| SVM | 93.2% |
+| SVM | 93.31% |
 
 ### Best Model
 
-**SVM** achieved the highest test accuracy of approximately **93.2%** and was selected as the best-performing model.
+**SVM** achieved the highest test accuracy of approximately **93.31%** and was selected as the best-performing model.
 
 The models were evaluated using training/test accuracy, cross-validation, classification reports, and ROC-AUC.
 
@@ -318,7 +328,7 @@ The project successfully developed a machine learning pipeline for semiconductor
 
 The dataset was cleaned by removing highly incomplete features and handling remaining missing values. Exploratory data analysis was performed to understand feature relationships and target distribution.
 
-Three classification models were trained and evaluated: Logistic Regression, Random Forest, and SVM. After comparing their performance, **SVM achieved the highest test accuracy of approximately 93.2%** and was selected as the best-performing model.
+Three classification models were trained and evaluated: Logistic Regression, Random Forest, and SVM. After comparing their performance, **SVM achieved the highest test accuracy of approximately 93.31%** and was selected as the best-performing model.
 
 The project demonstrates how machine learning can be used to analyze semiconductor sensor data and predict manufacturing Pass/Fail outcomes.
 
